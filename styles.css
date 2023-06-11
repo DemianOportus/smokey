@@ -1,0 +1,374 @@
+body {
+  background-color: #212121;
+  color: white;
+  margin: 40px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 22px;
+}
+
+/* Fonts */
+
+h1 {
+  font-family: "Playfair Display";
+  font-size: 53px;
+}
+
+h5 {
+  font-family: "Playfair display";
+  font-weight: 400;
+  font-size: 40px;
+}
+
+h6 {
+  font-family: "Playfair display";
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.brandName {
+  text-align: center;
+  font-family: "Playfair Display";
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+/* General */
+
+.roundEdges {
+  border-radius: 35px;
+}
+
+.titleUnderline {
+  border-bottom: solid 2px #A3845A;
+  margin-bottom: 50px;
+}
+
+.button {
+  background-color: #A3845A;
+  text-decoration: none;
+  color: white;
+  padding: 15px 35px;
+  font-size: 22px;
+  border-radius: 35px;
+}
+
+.button:hover {
+  background-color: #9A7D55;
+}
+
+/* Introduction Section */
+
+.blockBrown {
+  background-color: #5C504C;
+  padding:70px 40px 15px 60px;
+}
+
+.introductionImage {
+  background-image: url("./images/coverImage.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* Selling Points Section */
+
+.sellingPointsBlock {
+  background-color: #3B3B3B;
+  text-align: center;
+  padding: 40px 0 25px;
+  margin: 24px 0px;
+}
+
+.sellingPointsIcon {
+  padding-bottom: 30px;
+}
+
+/* About Us Section */
+
+.aboutUsTitle {
+  width: 220px;
+}
+
+.aboutUsImage {
+  background-image: url("./images/aboutUsImage.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* Best Sellers Section */
+
+.bestSellersContainer {
+  background-color: white;
+  color: black;
+  padding:70px 40px 15px 60px;
+}
+
+.bestSellersTitle {
+  width: 280px;
+}
+
+.productImageContainer {
+  background-color: #F5F5F5;
+  text-align: center;
+  border-radius: 35px;
+  padding: 25px 0;
+}
+
+.productImage {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.productDescription {
+  font-size: 18px;
+}
+
+.productPrice {
+  font-weight: 700;
+}
+
+/* Services */
+
+.ourServicesTitle {
+  width: 310px;
+}
+
+.card {
+  background-color: #5C504C;
+}
+
+.tourImage {
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  height: 320px;
+  object-fit: cover;
+}
+
+.tourCard {
+  width: 410px;
+  margin-bottom: 30px;
+}
+
+/* Footer */
+
+.footerContainer {
+  padding: 110px 40px 80px 100px;
+}
+
+.footerTitle {
+  padding-top: 25px;
+}
+
+/* Reservation Page */
+
+  /* Reservation Form */
+
+  .reservationAndExpertsContainer {
+    padding: 70px 40px 70px 60px;
+  }
+
+  .makeAReservationTitle {
+    width: 465px;
+  }
+
+  .inputField {
+    background-color: #212121;
+    color: #BBBBBB;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    width: 500px;
+    margin-bottom: 30px;
+    color-scheme: dark;
+  }
+
+  ::placeholder {
+    color: #BBBBBB;
+  }
+
+  label {
+    color: #BBBBBB;
+    font-size: 18px;
+    width: 500px;
+    text-align: left;
+  }
+
+  select {
+    background-color: #212121;
+    color: #BBBBBB;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    width: 500px;
+  }
+
+  #submitReservation:disabled {
+    opacity: 50%;
+  }
+
+  /* Experts Section*/
+
+  .ourExpertsTitle {
+    width: 290px;
+  }
+
+  .expertSlides {
+    background-color: #5C504C;
+    border-radius: 35px;
+  }
+
+  .profileImage {
+    max-width: 140px;
+    padding-bottom: 20px;
+  }
+
+  .carousel-item {
+    padding: 50px 95px;
+  }
+
+
+/* Responsive Design */
+
+@media (max-width: 600px) {
+
+  body {
+    margin: 20px;
+    font-size: 19px;
+  }
+
+  /* Images */
+  .imageContainer {
+    height: 350px;
+    margin-top: 24px;
+  }
+
+  /* Fonts */
+
+  h1 {
+    font-size: 35px;
+  }
+
+  h5 {
+    font-size: 32px;
+  }
+
+  /* General */
+
+  .button {
+    padding: 10px 27px;
+    font-size: 19px;
+    border-radius: 35px;
+  }
+
+  .titleUnderline {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  /* Introduction Section */
+
+  .blockBrown {
+    padding:50px 20px 5px 40px;
+  }
+
+  /* About Us Section */
+
+  .aboutUsTitle {
+    width: 145px;
+  }
+
+  /* Best Sellers Section */
+
+  .bestSellersTitle {
+    width: 183px;
+  }
+
+  /* Our Services Section */
+
+  .ourServicesTitle {
+    width: 200px;
+  }
+
+  /* Reservation Page */
+
+  .reservationAndExpertsContainer {
+    padding: 0;
+    margin-bottom: 100px;
+  }
+
+    /* Reservation Form */
+
+    .makeAReservationTitle {
+      width: 307px;
+    }
+
+    .inputField {
+      width: 350px;
+    }
+
+    select {
+      width: 350px;
+    }
+
+    label {
+      text-align: left;
+      width: 350px;
+    }
+
+    .alert {
+      width: 350px;
+      margin: auto;
+    }
+
+    .reservationButtonContainer {
+
+      text-align: center;
+    }
+
+    /* Our Experts Section */
+
+    .ourExpertsTitle {
+      width: 195px;
+      margin-top: 50px;
+    }
+
+    .carousel-item {
+      padding: 20px 45px;
+    }
+
+  /* Footer */
+
+  .footerContainer {
+    padding: 50px 0 40px 60px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 992px) {
+
+  /* Images */
+
+  .imageContainer {
+    height: 500px;
+    margin-top: 24px;
+  }
+
+  /* General */
+
+  .center {
+    text-align: center;
+  }
+
+  .titleUnderline {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Reservation Form */
+
+  .alert {
+    margin: auto;
+  }
+}
